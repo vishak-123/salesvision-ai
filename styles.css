@@ -1,0 +1,47 @@
+/* ===== GLOBAL PREMIUM THEME ===== */
+
+body {
+    background: linear-gradient(135deg, #020617, #0f172a);
+    color: #e5e7eb;
+}
+
+.glass-card {
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border-radius: 22px;
+    padding: 28px;
+    box-shadow: 0 25px 60px rgba(0,0,0,0.5);
+    transition: 0.3s ease;
+}
+
+.glass-card:hover {
+    transform: translateY(-6px);
+}
+
+.kpi {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.kpi-label {
+    font-size: 16px;
+    color: #c7d2fe;
+}
+
+/* ===== SIDEBAR UPGRADE ===== */
+
+section[data-testid="stSidebar"] {
+    background: linear-gradient(180deg, #020617, #0f172a);
+    border-right: 1px solid rgba(255,255,255,0.1);
+}
+
+section[data-testid="stSidebar"] * {
+    color: #e5e7eb !important;
+}
+
+section[data-testid="stSidebar"] h1, 
+section[data-testid="stSidebar"] h2 {
+    color: #a5b4fc !important;
+}
+
